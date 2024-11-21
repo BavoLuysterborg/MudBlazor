@@ -212,6 +212,22 @@ public static class MudGlobal
         /// Defaults to <see cref="Margin.None"/>.
         /// </remarks>
         public static Margin Margin { get; set; } = Margin.None;
+
+        /// <summary>
+        /// The default AnchorOrigin for <see cref="MudSelect{T}"/> and <see cref="MudAutocomplete{T}"/>.
+        /// </summary>
+        /// <remarks>
+        /// Defaults to <see cref="Origin.BottomLeft"/>.
+        /// </remarks>
+        public static Origin AnchorOrigin { get; set; } = Origin.BottomLeft;
+
+        /// <summary>
+        /// The default TransformOrigin for <see cref="MudSelect{T}"/> and <see cref="MudAutocomplete{T}"/>.
+        /// </summary>
+        /// <remarks>
+        /// Defaults to <see cref="Origin.TopLeft"/>.
+        /// </remarks>
+        public static Origin TransformOrigin { get; set; } = Origin.TopLeft;
     }
 
     /// <summary>
@@ -259,6 +275,22 @@ public static class MudGlobal
         /// Indicate the default waiting time to prevent closing if a mouse enter event occurs.
         /// </summary>
         public static int PreventCloseWaitingTime { get; set; } = 50;
+
+        /// <summary>
+        /// The default AnchorOrigin for <see cref="MudMenu"/>.
+        /// </summary>
+        /// <remarks>
+        /// Defaults to <see cref="Origin.BottomLeft"/>.
+        /// </remarks>
+        public static Origin AnchorOrigin { get; set; } = Origin.BottomLeft;
+
+        /// <summary>
+        /// The default TransformOrigin for <see cref="MudMenu"/>.
+        /// </summary>
+        /// <remarks>
+        /// Defaults to <see cref="Origin.TopLeft"/>.
+        /// </remarks>
+        public static Origin TransformOrigin { get; set; } = Origin.TopLeft;
     }
 
     /// <summary>
@@ -303,6 +335,46 @@ public static class MudGlobal
         /// Defaults to <see cref="TransitionDefaults.Duration"/>.
         /// </remarks>
         public static TimeSpan Duration { get; set; } = TransitionDefaults.Duration;
+
+        /// <summary>
+        /// The default variant for <see cref="MudPicker{T}"/>.
+        /// </summary>
+        /// <remarks>
+        /// Defaults to <see cref="Variant.Text"/>.
+        /// </remarks>
+        public static Variant Variant { get; set; } = Variant.Text;
+
+        /// <summary>
+        /// The default margin for <see cref="MudPicker{T}"/>.
+        /// </summary>
+        /// <remarks>
+        /// Defaults to <see cref="Margin.None"/>.
+        /// </remarks>
+        public static Margin Margin { get; set; } = Margin.None;
+
+        /// <summary>
+        /// The default AnchorOrigin for <see cref="MudPicker{T}"/>.
+        /// </summary>
+        /// <remarks>
+        /// Defaults to <see cref="Origin.BottomLeft"/>.
+        /// </remarks>
+        public static Origin AnchorOrigin { get; set; } = Origin.BottomLeft;
+
+        /// <summary>
+        /// The default TransformOrigin for <see cref="MudPicker{T}"/>.
+        /// </summary>
+        /// <remarks>
+        /// Defaults to <see cref="Origin.TopLeft"/>.
+        /// </remarks>
+        public static Origin TransformOrigin { get; set; } = Origin.TopLeft;
+
+        /// <summary>
+        /// The default OverflowBehavior for <see cref="MudPicker{T}"/>.
+        /// </summary>
+        /// <remarks>
+        /// Defaults to <see cref="OverflowBehavior.FlipOnOpen"/>.
+        /// </remarks>
+        public static OverflowBehavior OverflowBehavior { get; set; } = OverflowBehavior.FlipOnOpen;
     }
 
     /// <summary>

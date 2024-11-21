@@ -503,14 +503,14 @@ namespace MudBlazor
         /// </summary>
         [Parameter]
         [Category(CategoryTypes.FormComponent.ListAppearance)]
-        public Origin AnchorOrigin { get; set; } = Origin.BottomLeft;
+        public Origin AnchorOrigin { get; set; } = MudGlobal.InputDefaults.AnchorOrigin;
 
         /// <summary>
         /// Sets the transform origin point for the popover.
         /// </summary>
         [Parameter]
         [Category(CategoryTypes.FormComponent.ListAppearance)]
-        public Origin TransformOrigin { get; set; } = Origin.TopLeft;
+        public Origin TransformOrigin { get; set; } = MudGlobal.InputDefaults.TransformOrigin;
 
         /// <summary>
         /// If true, the Select's input will not show any values that are not defined in the dropdown.

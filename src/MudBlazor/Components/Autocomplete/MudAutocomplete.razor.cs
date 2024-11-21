@@ -108,7 +108,7 @@ namespace MudBlazor
         /// </remarks>
         [Parameter]
         [Category(CategoryTypes.FormComponent.ListAppearance)]
-        public Origin AnchorOrigin { get; set; } = Origin.BottomLeft;
+        public Origin AnchorOrigin { get; set; } = MudGlobal.InputDefaults.AnchorOrigin;
 
         /// <summary>
         /// The transform origin point for the popover.
@@ -118,7 +118,7 @@ namespace MudBlazor
         /// </remarks>
         [Parameter]
         [Category(CategoryTypes.FormComponent.ListAppearance)]
-        public Origin TransformOrigin { get; set; } = Origin.TopLeft;
+        public Origin TransformOrigin { get; set; } = MudGlobal.InputDefaults.TransformOrigin;
 
         /// <summary>
         /// Uses compact padding.

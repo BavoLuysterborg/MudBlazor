@@ -220,7 +220,7 @@ namespace MudBlazor
         /// </remarks>
         [Parameter]
         [Category(CategoryTypes.Menu.PopupAppearance)]
-        public Origin AnchorOrigin { get; set; } = Origin.BottomLeft;
+        public Origin AnchorOrigin { get; set; } = MudGlobal.MenuDefaults.AnchorOrigin;
 
         /// <summary>
         /// Sets the direction the menu will open from the anchor.
@@ -230,7 +230,7 @@ namespace MudBlazor
         /// </remarks>
         [Parameter]
         [Category(CategoryTypes.Menu.PopupAppearance)]
-        public Origin TransformOrigin { get; set; } = Origin.TopLeft;
+        public Origin TransformOrigin { get; set; } = MudGlobal.MenuDefaults.TransformOrigin;
 
         /// <summary>
         /// Prevents the page from scrolling while this menu is open.
