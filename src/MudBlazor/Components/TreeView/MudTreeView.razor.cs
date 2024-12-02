@@ -75,7 +75,7 @@ namespace MudBlazor
         /// </summary>
         [Parameter]
         [Category(CategoryTypes.TreeView.Selecting)]
-        public Color Color { get; set; } = Color.Primary;
+        public Color Color { get; set; } = MudGlobal.TreeViewDefaults.Color;
 
         /// <summary>
         /// Check box color if multiselection is used.
@@ -187,7 +187,7 @@ namespace MudBlazor
         /// </summary>
         [Parameter]
         [Category(CategoryTypes.TreeView.Appearance)]
-        public bool Ripple { get; set; } = true;
+        public bool Ripple { get; set; } = MudGlobal.TreeViewDefaults.Ripple;
 
         /// <summary>
         /// Tree items that will be rendered using the Item

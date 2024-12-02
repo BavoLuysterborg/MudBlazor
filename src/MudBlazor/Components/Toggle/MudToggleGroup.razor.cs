@@ -159,28 +159,28 @@ namespace MudBlazor
         /// </summary>
         [Parameter]
         [Category(CategoryTypes.List.Appearance)]
-        public bool Outlined { get; set; } = true;
+        public bool Outlined { get; set; } = MudGlobal.ToggleGroupDefaults.Outlined;
 
         /// <summary>
         /// If true, show a line delimiter between items. Default is true.
         /// </summary>
         [Parameter]
         [Category(CategoryTypes.List.Appearance)]
-        public bool Delimiters { get; set; } = true;
+        public bool Delimiters { get; set; } = MudGlobal.ToggleGroupDefaults.Delimiters;
 
         /// <summary>
         /// Gets or sets whether to show a ripple effect when the user clicks the button. Default is true.
         /// </summary>
         [Parameter]
         [Category(CategoryTypes.List.Appearance)]
-        public bool Ripple { get; set; } = true;
+        public bool Ripple { get; set; } = MudGlobal.ToggleGroupDefaults.Ripple;
 
         /// <summary>
         /// The size of the items in the toggle group.
         /// </summary>
         [Parameter]
         [Category(CategoryTypes.List.Appearance)]
-        public Size Size { get; set; } = Size.Medium;
+        public Size Size { get; set; } = MudGlobal.ToggleGroupDefaults.Size;
 
         /// <summary>
         /// The selection behavior of the group. SingleSelection (the default) is a radio-button like exclusive collection.
@@ -196,7 +196,7 @@ namespace MudBlazor
         /// </summary>
         [Parameter]
         [Category(CategoryTypes.List.Appearance)]
-        public Color Color { get; set; } = Color.Primary;
+        public Color Color { get; set; } = MudGlobal.ToggleGroupDefaults.Color;
 
         /// <summary>
         /// If true, the items show a check mark next to the text or render fragment. Customize the check mark by setting

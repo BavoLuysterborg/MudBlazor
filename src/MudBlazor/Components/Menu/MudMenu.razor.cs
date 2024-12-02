@@ -260,7 +260,7 @@ namespace MudBlazor
         /// </remarks>
         [Parameter]
         [Category(CategoryTypes.Menu.Appearance)]
-        public bool Ripple { get; set; } = true;
+        public bool Ripple { get; set; } = MudGlobal.MenuDefaults.Ripple;
 
         /// <summary>
         /// Displays a drop shadow under the activator button.
@@ -270,7 +270,7 @@ namespace MudBlazor
         /// </remarks>
         [Parameter]
         [Category(CategoryTypes.Menu.Appearance)]
-        public bool DropShadow { get; set; } = true;
+        public bool DropShadow { get; set; } = MudGlobal.MenuDefaults.DropShadow;
 
         /// <summary>
         /// The <see cref="MudMenuItem" /> components within this menu.
