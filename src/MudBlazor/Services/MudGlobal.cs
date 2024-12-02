@@ -91,6 +91,15 @@ public static class MudGlobal
         /// Defaults to <c>true</c>
         /// </remarks>
         public static bool DropShadow { get; set; } = true;
+
+        /// <summary>
+        /// Override individual button styles with a <see cref="MudButtonGroup"/> style. 
+        /// When <c>true</c>, the button styles are defined by the group.
+        /// </summary>
+        /// <remarks>
+        /// Defaults to <c>true</c>
+        /// </remarks>
+        public static bool OverrideStyles { get; set; } = true;
     }
 
     /// <summary>

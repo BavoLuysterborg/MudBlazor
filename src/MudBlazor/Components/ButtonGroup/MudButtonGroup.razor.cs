@@ -29,11 +29,11 @@ namespace MudBlazor
         /// Overrides individual button styles with this group's style.
         /// </summary>
         /// <remarks>
-        /// Defaults to <c>true</c>.  When <c>true</c>, the button styles are defined by this group.
+        /// Defaults to <c>true</c>. When <c>true</c>, the button styles are defined by this group.
         /// </remarks>
         [Parameter]
         [Category(CategoryTypes.ButtonGroup.Appearance)]
-        public bool OverrideStyles { get; set; } = true;
+        public bool OverrideStyles { get; set; } = MudGlobal.ButtonGroupDefaults.OverrideStyles;
 
         /// <summary>
         /// The custom content within this group.
